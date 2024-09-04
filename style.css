@@ -1,0 +1,35 @@
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgba(175, 198, 175, 0.5);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 128, 0, 0.5);
+    border-radius: 20px;
+}
+li{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.co-white{
+    color: rgb(50, 132, 22);
+}
+.activeHover{
+    border-left: 4px solid #b5d6de;
+}
+.activeHover:hover{
+    background-color: black;
+    border-left: 4px solid green;
+}
+.drop-list {
+    display: none;
+}
+.dropdown.open .drop-list {
+    display: block;
+}
+.active{
+    background-color: black;
+    border-left: 4px solid green;
+}
