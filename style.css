@@ -17,10 +17,10 @@ a{
     color: rgb(50, 132, 22);
 }
 .activeHover{
-    border-left: 4px solid #b5d6de;
+    border-left: 4px solid #cff4fc;
 }
 .activeHover:hover{
-    background-color: black;
+    background-color: rgba(118, 112, 112,0.4);
     border-left: 4px solid green;
 }
 .drop-list {
@@ -30,6 +30,6 @@ a{
     display: block;
 }
 .active{
-    background-color: black;
+    background-color: rgba(118, 112, 112,0.4);
     border-left: 4px solid green;
 }
